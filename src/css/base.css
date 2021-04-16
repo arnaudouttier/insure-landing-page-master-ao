@@ -1,0 +1,109 @@
+/* Variables */
+
+:root {
+    --dark-violet: hsl(256, 26%, 20%);
+    --grayish-blue: hsl(216, 30%, 68%);
+    --very-dark-violet: hsl(270, 9%, 17%);
+    --dark-grayish-violet: hsl(273, 4%, 51%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --grey-light: #9c9a9f;
+    --primary-font: Karla, sans-serif;
+    --secondary-font: DM Serif Display
+}
+
+
+/* class */
+
+.container {
+    margin: 0 auto;
+    padding: 0 25px;
+    max-width: 1114px;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+
+/*  btn  */
+
+.btn {
+    padding: 10px 32px!important;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: background-color .3s linear;
+    cursor: pointer;
+}
+
+.btn-white {
+    border: 2px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+}
+
+.btn-black {
+    border: 2px solid black;
+    border-radius: 0;
+    color: black!important;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: var(--very-light-gray);
+    color: black
+}
+
+.btn-black:hover,
+.btn-black:focus {
+    background-color: black;
+    color: var(--very-light-gray)!important;
+}
+
+.border {
+    border: 1px solid var(--dark-grayish-violet);
+    width: 150px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+h2,
+h3,
+h4 {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2.9rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    line-height: 2rem;
+    margin: 0;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 1134px) {
+    h2 {
+        font-size: 4.5rem;
+    }
+    h3 {
+        font-size: 3rem;
+    }
+}
