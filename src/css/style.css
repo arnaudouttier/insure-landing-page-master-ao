@@ -190,6 +190,7 @@
     background-image: url("../assets/images/bg-pattern-mobile-nav.svg");
     background-repeat: no-repeat;
     background-position-y: 83%;
+    text-transform: uppercase;
 }
 
 .is-open.site-nav-mobile {
